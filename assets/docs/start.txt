@@ -1,6 +1,8 @@
-Han 공식 사이트(https://codexora-dev.github.io/Han_Site/index.html)에서 Han을 다운로드합니다.
-다운로드 된 ZIP파일의 압축을 원하는 폴더에 압축을 해제합니다. 
-압축을 해제하면 Han.exe파일이 최상단에 있습니다. 그 파일을 원하는 위치에 두세요.
-그 파일이 바로 IDE파일입니다.
+Han GitHub 저장소(https://github.com/codexora-dev/Han)에서 소스 코드를 다운로드합니다.
+다운로드한 ZIP 파일의 압축을 원하는 폴더에 풉니다.
+Python 3가 설치되어 있는지 확인한 뒤 프로젝트 폴더에서 다음 명령을 실행합니다.
 
-그리고 IDE를 실행하고 
+cd C:\Users\사용자명\Desktop\Han
+python IDE\app.py
+
+또는 IDE 폴더의 run.bat 파일을 실행합니다.
