@@ -1,8 +1,8 @@
-Han GitHub 저장소(https://github.com/codexora-dev/Han)에서 소스 코드를 다운로드합니다.
+Hangullo GitHub 저장소(https://github.com/codexora-dev/Hangullo)에서 소스 코드를 다운로드합니다.
 다운로드한 ZIP 파일의 압축을 원하는 폴더에 풉니다.
 Python 3가 설치되어 있는지 확인한 뒤 프로젝트 폴더에서 다음 명령을 실행합니다.
 
-cd C:\Users\사용자명\Desktop\Han
+cd C:\Users\사용자명\Desktop\Hangullo
 python IDE\app.py
 
 또는 IDE 폴더의 run.bat 파일을 실행합니다.
