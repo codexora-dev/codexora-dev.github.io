@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/Hangullo_Logo1.ico" />
     <link rel="apple-touch-icon" href="assets/Hangullo_Logo1.png" />
-    <meta name="description" content="Hangullo은 영어 중심 문법의 장벽을 낮추고 한국어로 프로그래밍 개념을 배울 수 있도록 설계된 프로그래밍 언어입니다." />
+    <meta name="description" content="Hangullo v0.0.1-beta의 목표와 현재 구현된 언어 기능, 컴파일러와 데스크톱 IDE를 소개합니다." />
     <meta property="og:title" content="Hangullo 소개 | Hangullo" />
-    <meta property="og:description" content="Hangullo은 영어 중심 문법의 장벽을 낮추고 한국어로 프로그래밍 개념을 배울 수 있도록 설계된 프로그래밍 언어입니다." />
+    <meta property="og:description" content="Hangullo v0.0.1-beta의 목표와 현재 구현된 언어 기능, 컴파일러와 데스크톱 IDE를 소개합니다." />
     <title>Hangullo 소개 | Hangullo</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -37,10 +37,10 @@
       <section class="page-hero section-pad">
         <div class="container narrow">
           <span class="eyebrow">Hangullo 소개</span>
-          <h1>한국어로 프로그래밍을 익히는 새로운 방향</h1>
+          <h1>한국어를 코드의 언어로.</h1>
           <p>
-            Hangullo은 영어 중심 문법에 익숙하지 않은 사용자도 더 자연스럽게 프로그래밍 개념을 배우고 이해할 수 있도록
-            설계된 한국어 기반 프로그래밍 언어 프로젝트입니다.
+            Hangullo는 한국어 키워드와 한글 식별자를 사용하는 오픈소스 프로그래밍 언어입니다. 현재 v0.0.1-beta에서
+            핵심 문법을 실행하는 컴파일러와 데스크톱 IDE를 개발하고 있습니다. Hangullo는 Python으로 제작되었습니다.
           </p>
         </div>
       </section>
@@ -48,23 +48,23 @@
       <section class="section-pad">
         <div class="container two-column">
           <div>
-            <h2>Hangullo을 만들게 된 이유</h2>
+            <h2>한국어로 생각한 흐름을 코드로 옮깁니다.</h2>
             <p>
               많은 프로그래밍 언어는 영어 키워드와 영어 중심 개발 환경을 기반으로 만들어졌습니다. 코드가 읽히는 방식과
               사고의 흐름 사이에 언어 장벽이 생기면 초보자는 개념을 배우는 과정에서 어려움을 느낄 수 있습니다.
             </p>
             <p>
-              Hangullo 프로젝트는 이런 점을 개선하고자 한국어 문법을 중심에 두고, 교육용으로도 실무적으로도 쉽게 접근할 수 있는
-              구조를 설계합니다.
+              Hangullo는 한국어를 사용하는 사람이 프로그래밍 개념을 익힐 때 키워드의 언어 장벽을 낮추고, 코드의 실행 흐름에
+              집중할 수 있도록 한국어 문법을 실험합니다. 아직 초기 베타이며, 범용 개발 도구로 검증된 제품이라고 주장하지 않습니다.
             </p>
           </div>
           <div class="mini-panel">
             <h3>핵심 방향</h3>
             <ul class="check-list compact">
               <li>한국어 기반 문법</li>
-              <li>초보자 친화적인 학습 경험</li>
-              <li>읽기 쉬운 코드 구조</li>
-              <li>오픈소스 개발 생태계</li>
+              <li>한글과 영문 식별자</li>
+              <li>명시적인 콜론과 들여쓰기 블록</li>
+              <li>공개 저장소와 테스트 중심 개발</li>
             </ul>
           </div>
         </div>
@@ -74,7 +74,7 @@
         <div class="container">
           <div class="section-heading">
             <span class="eyebrow">특징</span>
-            <h2>Hangullo의 목표는 단순한 번역이 아니라 이해의 편의성입니다.</h2>
+            <h2>작은 문법을 명확하게 구현하는 것부터 시작합니다.</h2>
           </div>
           <div class="feature-grid">
             <article class="card">
@@ -83,11 +83,11 @@
             </article>
             <article class="card">
               <h3>교육 친화적</h3>
-              <p>처음 프로그래밍을 접하는 사용자가 코드의 의미를 직관적으로 이해할 수 있도록 설계합니다.</p>
+              <p>읽기 쉬운 한국어 키워드와 예제를 통해 핵심 제어 흐름을 익힐 수 있도록 설계합니다.</p>
             </article>
             <article class="card">
               <h3>개발 초기 단계</h3>
-              <p>현재 Hangullo은 문법 설계, IDE 구현, 컴파일러 구조와 개발 도구에 집중하는 초기 단계 프로젝트입니다.</p>
+              <p>현재 버전은 lexer, parser와 코드 생성기를 갖춘 초기 베타이며 기능과 명세가 발전 중입니다.</p>
             </article>
           </div>
         </div>
@@ -98,22 +98,22 @@
           <h2>현재 개발 상태</h2>
           <div class="info-box">
             <p>
-              Hangullo 프로젝트는 현재 초기 개발 단계입니다. 저장소에는 문법 설계 문서, 예제 코드, IDE, 컴파일러 구조,
-              오류 처리 로직이 포함되어 있으며, 앞으로 문법과 도구를 더 정교하게 확장할 예정입니다.
+              Hangullo v0.0.1-beta는 변수, 입출력, 조건문, 횟수 반복문, 함수와 반환을 지원합니다. 클래스, 모듈,
+              컬렉션 반복, 예외 처리, 패키지 관리자는 현재 지원 범위에 포함되지 않습니다.
             </p>
           </div>
           <div class="status-list">
             <div class="status-item">
               <span class="label">현재 포함</span>
-              <strong>기초 문법 예제, IDE, 컴파일러 구조, 오류 처리</strong>
+              <strong>핵심 문법, 명령줄 도구, 데스크톱 IDE, 실행 예제</strong>
             </div>
             <div class="status-item">
               <span class="label">설계 문서</span>
-              <strong>문법, 키워드, 철학, 사양서</strong>
+              <strong>현재 구현을 기준으로 한 문법 안내</strong>
             </div>
             <div class="status-item">
               <span class="label">향후 방향</span>
-              <strong>표준 라이브러리, 문서 확장, 개발 도구 강화</strong>
+              <strong>공개 저장소에서 진행 상황 확인</strong>
             </div>
           </div>
         </div>

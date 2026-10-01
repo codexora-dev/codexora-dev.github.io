@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/Hangullo_Logo1.ico" />
     <link rel="apple-touch-icon" href="assets/Hangullo_Logo1.png" />
-    <meta name="description" content="Hangullo의 기본 문법과 예제 코드를 따라 하며 한국어 프로그래밍을 처음 시작해 보세요." />
+    <meta name="description" content="다운로드 메뉴에서 Hangullo 설치 파일을 받고 IDE에서 첫 .hg 프로그램을 실행하는 방법을 안내합니다." />
     <meta property="og:title" content="시작하기 | Hangullo" />
-    <meta property="og:description" content="Hangullo의 기본 문법과 예제 코드를 따라 하며 한국어 프로그래밍을 처음 시작해 보세요." />
+    <meta property="og:description" content="다운로드 메뉴에서 Hangullo 설치 파일을 받고 IDE에서 첫 .hg 프로그램을 실행하는 방법을 안내합니다." />
     <title>시작하기 | Hangullo</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -37,8 +37,8 @@
       <section class="page-hero section-pad">
         <div class="container narrow">
           <span class="eyebrow">시작하기</span>
-          <h1>처음 Hangullo을 접하는 사람도 바로 시작할 수 있습니다.</h1>
-          <p>Hangullo IDE는 Python 기반으로 동작하며, 저장소를 내려받아 폴더 안에서 실행할 수 있습니다.</p>
+          <h1>첫 번째 .hg 프로그램 실행하기</h1>
+          <p>먼저 상단 다운로드 메뉴에서 Hangullo 다운로드 버튼을 눌러 설치 파일을 받아 주세요. 설치 후 Hangullo IDE에서 첫 프로그램을 작성할 수 있습니다.</p>
         </div>
       </section>
 
@@ -47,24 +47,24 @@
           <div class="steps-grid">
             <article class="step-card">
               <span class="step-number">1</span>
-              <h3>Hangullo 저장소를 내려받습니다.</h3>
-              <p>GitHub 저장소에서 현재 코드를 다운로드하거나 로컬에 복제합니다.</p>
-              <a href="https://github.com/codexora-dev/Hangullo" target="_blank" rel="noreferrer" class="text-link">GitHub 저장소 열기</a>
+              <h3>다운로드 메뉴 열기</h3>
+              <p>사이트 상단 메뉴에서 다운로드를 선택합니다.</p>
             </article>
             <article class="step-card">
               <span class="step-number">2</span>
-              <h3>IDE를 실행합니다.</h3>
-              <p>프로젝트 루트에서 IDE 폴더 안의 app.py를 실행하거나 run.bat를 사용합니다.</p>
+              <h3>다운로드 버튼 누르기</h3>
+              <p>다운로드 페이지의 Hangullo 다운로드 버튼을 눌러 설치 파일을 받습니다.</p>
+              <a href="download.html" class="text-link">다운로드 페이지로 이동</a>
             </article>
             <article class="step-card">
               <span class="step-number">3</span>
-              <h3>첫 번째 파일을 만듭니다.</h3>
-              <p>새 파일을 만들고 .hg 확장자로 저장한 뒤 예제를 입력해 보세요.</p>
+              <h3>설치 파일 실행</h3>
+              <p>다운로드한 파일을 열고 설치 화면의 안내에 따라 설치를 완료합니다.</p>
             </article>
             <article class="step-card">
               <span class="step-number">4</span>
-              <h3>실행합니다.</h3>
-              <p>IDE의 실행 버튼 또는 F5 키를 눌러 결과를 확인하고, 콘솔을 살펴보세요.</p>
+              <h3>IDE에서 시작</h3>
+              <p>Hangullo IDE를 열고 새 <code>.hg</code> 파일을 작성합니다.</p>
             </article>
           </div>
         </div>
@@ -73,38 +73,28 @@
       <section class="section-pad section-muted">
         <div class="container two-column">
           <div>
-            <h2>Windows</h2>
+            <h2>첫 프로그램 작성</h2>
             <ol class="ordered-list">
-              <li>Hangullo 저장소를 로컬에 다운로드합니다.</li>
-              <li>프로젝트 폴더 안에서 Hangullo/IDE 경로로 이동합니다.</li>
-              <li>아래와 같이 실행합니다.</li>
+              <li>Hangullo IDE를 실행합니다.</li>
+              <li>새 파일을 만들고 <code>.hg</code> 확장자로 저장합니다.</li>
+              <li>코드를 입력한 뒤 F5 또는 실행 버튼을 누릅니다.</li>
             </ol>
-            <pre class="code-block"><code>cd C:\Users\사용자명\Desktop\Hangullo
-python IDE\app.py</code></pre>
-            <p>또는 IDE 폴더의 run.bat 파일을 실행해 같은 작업을 진행할 수 있습니다.</p>
+            <pre class="code-block"><code>출력("안녕하세요, Hangullo!")</code></pre>
+            <p>프로그램의 결과는 IDE 콘솔에서 확인할 수 있습니다. 문법은 <a href="docs/basic-syntax.html">언어 문법 안내</a>를 참고하세요.</p>
           </div>
           <div>
-            <h2>지원 범위</h2>
-            <ol class="ordered-list">
-              <li>현재 공식 실행 패키지는 Windows 기준으로 안내합니다.</li>
-              <li>공식 독립 실행 파일은 아직 배포되지 않았습니다.</li>
-              <li>소스 실행에는 Python 3가 필요합니다.</li>
-            </ol>
-            <pre class="code-block"><code>GitHub 저장소의 README와
-IDE/README.md를 참고하세요.</code></pre>
-            <p>지원 환경이 확대되면 실행 절차를 이 페이지에 추가합니다.</p>
+            <h2>설치 파일 받기</h2>
+            <p>설치 파일을 아직 받지 않았다면 사이트 상단의 <strong>다운로드</strong> 메뉴로 이동해 다운로드 버튼을 눌러 주세요.</p>
+            <a href="download.html" class="btn btn-primary">다운로드 페이지로 이동</a>
           </div>
         </div>
       </section>
 
       <section class="section-pad">
         <div class="container narrow">
-          <h2>첫 번째 Hangullo 코드</h2>
-          <pre class="code-block"><code>출력 "안녕하세요, Hangullo!"
-
-변수 이름 = "Hangullo"
-출력 "반갑습니다, " + 이름</code></pre>
-          <p>코드를 입력한 뒤 실행하면 콘솔에 결과가 출력됩니다.</p>
+          <h2>첫 번째 프로그램</h2>
+          <pre class="code-block"><code>출력("안녕하세요, Hangullo!")</code></pre>
+          <p>파일을 저장한 뒤 F5 또는 실행 버튼을 누르면 결과를 확인할 수 있습니다.</p>
         </div>
       </section>
     </main>

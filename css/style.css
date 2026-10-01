@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap");
+
 :root {
   --bg: #0b1020;
   --bg-soft: #131b2b;
@@ -34,9 +36,9 @@ pre {
   margin: 0;
   white-space: pre-wrap;
   word-break: break-word;
-  font-family: 'Consolas', 'Monaco', monospace;
+  font-family: 'IBM Plex Mono', 'Cascadia Code', Consolas, monospace;
 }
-code { font-family: 'Consolas', 'Monaco', monospace; }
+code { font-family: 'IBM Plex Mono', 'Cascadia Code', Consolas, monospace; }
 
 .container {
   width: min(var(--container), calc(100% - 2rem));
