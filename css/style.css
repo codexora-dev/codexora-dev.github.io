@@ -73,6 +73,12 @@ h3 { font-size: 1.35rem; }
   color: var(--ink-soft);
 }
 
+.download-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
 .site-header {
   position: sticky;
   top: 0;
