@@ -71,7 +71,6 @@ document.addEventListener('DOMContentLoaded', () => {
         downloadButton.setAttribute('aria-disabled', 'true');
 
         downloadButton.style.pointerEvents = 'none';
-        downloadButton.style.opacity = '0.55';
 
         downloadButtonText.textContent =
           '10월 9일 14시 46분 공개';
