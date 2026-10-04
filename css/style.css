@@ -122,6 +122,13 @@ h3 { font-size: 1.35rem; }
   padding: 0.72rem 0.7rem;
   cursor: pointer;
 }
+
+.download-disabled {
+  filter: grayscale(100%);
+  cursor: not-allowed;
+  user-select: none;
+}
+
 .nav-toggle span {
   display: block;
   height: 2px;
