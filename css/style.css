@@ -572,3 +572,14 @@ h3 { font-size: 1.35rem; }
     font-size: 24px;
   }
 }
+
+/* Hangullo 다운로드 공개 전 */
+#download-button.download-disabled {
+  background: #808080 !important;
+  color: #ffffff !important;
+  border-color: #808080 !important;
+  opacity: 1 !important;
+  cursor: not-allowed !important;
+  pointer-events: none;
+  filter: none;
+}
