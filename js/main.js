@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('download-button-text');
 
   if (downloadButton && downloadButtonText) {
-    const releaseTime = new Date('2026-10-05T14:46:00+09:00');
+    const releaseTime = new Date('2026-10-09T14:46:00+09:00');
     const downloadUrl = downloadButton.dataset.downloadUrl;
 
     function updateDownloadButton() {
